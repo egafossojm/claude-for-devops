@@ -13,10 +13,10 @@ In the Claude working directory(the project/folder) there are
 #### 1. Default behavior 
 - By default Claude can read and write files within your current directories and its subdirectories
 
-#### 2. The file .claudeignore in the root directory
+#### 2. The file `.claudeignore` in the root directory
 - It respect the file `.claudeignore` (with the similar syntax as `.gitignore`) where you specify the files you don want it to touch.
 
-#### 3. The file CLAUDE.md in the root directory
+#### 3. The file `CLAUDE.md` in the root directory
 This is the onboarding documentation written for Claude.
 With this file you give claude persistent instructions about your project:
 - Test tech you are using
